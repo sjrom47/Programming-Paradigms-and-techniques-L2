@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-
+        // TODO: ensure only PoliceStation and city can create vehicles
         static void Main()
         {
             Taxi taxi1 = new Taxi("0001 AAA");

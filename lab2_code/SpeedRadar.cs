@@ -17,6 +17,7 @@
 
         public void TriggerRadar(Vehicle vehicle)
         {
+            // TODO: vehicles without plates
             plate = vehicle.GetPlate();
             speed = vehicle.GetSpeed();
             SpeedHistory.Add(speed);
