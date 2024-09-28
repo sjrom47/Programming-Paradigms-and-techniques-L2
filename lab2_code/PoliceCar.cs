@@ -3,7 +3,8 @@
     class PoliceCar : VehicleWithPlate
     {
         //constant string as TypeOfVehicle wont change allong PoliceCar instances
-        private const string typeOfVehicle = "Police Car"; 
+        private const string typeOfVehicle = "Police Car";
+        private string lastPursuedVehicle;
         private bool isPatrolling;
         private bool isPursuing;
         private SpeedRadar speedRadar;
@@ -76,10 +77,22 @@
             }
         }
 
-        private void StartPursuit(string plate)
+        public void StartPursuit(string plate)
         {
-            isPursuing = true;
-            associatedPoliceStation.ActivateAlarm(plate);
+            if (isPatrolling)
+            {
+                isPursuing = true;
+                lastPursuedVehicle = plate;
+            }
+            
+            //associatedPoliceStation.ActivateAlarm(plate);
+        }
+        public void StopPursuit()
+        {
+            if (isPursuing)
+            {
+                isPursuing = false;
+            }
         }
     }
 }

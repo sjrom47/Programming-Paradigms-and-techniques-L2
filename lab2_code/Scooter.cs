@@ -8,6 +8,7 @@ namespace Practice1
 {
     internal class Scooter:VehicleWithoutPlate
     {
-        public Scooter(string typeOfVehicle) : base(typeOfVehicle) { }
+        const string typeOfVehicle = "Scooter";
+        public Scooter() : base(typeOfVehicle) { }
     }
 }

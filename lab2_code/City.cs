@@ -7,24 +7,31 @@ using System.Threading.Tasks;
 
 namespace Practice1
 {
-    internal class City : IManageVehicles
+    internal class City 
     {
-        List<Vehicle> taxiLicenses;
-        PoliceStation policeStation;
+        List<Vehicle> vehicleLicenses;
+        PoliceStation cityPoliceStation;
         public City() { }
 
         public void AddPoliceStation(PoliceStation policeStation)
         {
-            this.policeStation = policeStation;
+            this.cityPoliceStation = policeStation;
         }
-        public void RegisterVehicle(string plate, string typeOfVehicle)
+        public void RegisterVehicle(string plate)
         {
+            PoliceCar newTaxi = new PoliceCar(plate, this, hasRadar);
+            registeredPoliceVehicles.Add(newTaxi);
 
         }
 
         public void RemoveVehicle(string plate)
         {
-
+            int i = 0;
+            while (vehicleLicenses[i].GetPlate() != plate)
+            {
+                i++;
+            }
+            vehicleLicenses.RemoveAt(i);
         }
     }
 }
