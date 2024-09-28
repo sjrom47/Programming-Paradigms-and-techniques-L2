@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\sergi\\documents\\icai\\3\u00BA\\primer cuatrimestre\\paradigmas\\practica 2\\lab2_code\\vehiclewithplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:vehiclewithplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\sergi\\documents\\icai\\3\u00BA\\primer cuatrimestre\\paradigmas\\practica 2\\lab2_code\\vehiclewithoutplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:vehiclewithoutplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\sergi\\documents\\icai\\3\u00BA\\primer cuatrimestre\\paradigmas\\practica 2\\lab2_code\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\sergi\\documents\\icai\\3\u00BA\\primer cuatrimestre\\paradigmas\\practica 2\\lab2_code\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\sergi\\documents\\icai\\3\u00BA\\primer cuatrimestre\\paradigmas\\practica 2\\lab2_code\\policestation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:policestation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\sergi\\documents\\icai\\3\u00BA\\primer cuatrimestre\\paradigmas\\practica 2\\lab2_code\\vehiclewithplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:vehiclewithplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\sergi\\documents\\icai\\3\u00BA\\primer cuatrimestre\\paradigmas\\practica 2\\lab2_code\\policecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:policecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\sergi\\documents\\icai\\3\u00BA\\primer cuatrimestre\\paradigmas\\practica 2\\lab2_code\\speedradar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:speedradar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\sergi\\documents\\icai\\3\u00BA\\primer cuatrimestre\\paradigmas\\practica 2\\lab2_code\\scooter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +35,12 @@
       "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\sergi\\documents\\icai\\3\u00BA\\primer cuatrimestre\\paradigmas\\practica 2\\lab2_code\\vehiclewithoutplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:vehiclewithoutplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\sergi\\documents\\icai\\3\u00BA\\primer cuatrimestre\\paradigmas\\practica 2\\lab2_code\\policecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:policecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\sergi\\documents\\icai\\3\u00BA\\primer cuatrimestre\\paradigmas\\practica 2\\lab2_code\\imessagewritter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:imessagewritter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\sergi\\documents\\icai\\3\u00BA\\primer cuatrimestre\\paradigmas\\practica 2\\lab2_code\\speedradar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:speedradar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\sergi\\documents\\icai\\3\u00BA\\primer cuatrimestre\\paradigmas\\practica 2\\lab2_code\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\sergi\\documents\\icai\\3\u00BA\\primer cuatrimestre\\paradigmas\\practica 2\\lab2_code\\taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "SpeedRadar.cs",
+              "DocumentMoniker": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\SpeedRadar.cs",
+              "RelativeDocumentMoniker": "SpeedRadar.cs",
+              "ToolTip": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\SpeedRadar.cs",
+              "RelativeToolTip": "SpeedRadar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:22:24.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Scooter.cs",
               "DocumentMoniker": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\Scooter.cs",
               "RelativeDocumentMoniker": "Scooter.cs",
@@ -71,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "VehicleWithoutPlate.cs",
               "DocumentMoniker": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\VehicleWithoutPlate.cs",
               "RelativeDocumentMoniker": "VehicleWithoutPlate.cs",
@@ -84,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "VehicleWithPlate.cs",
               "DocumentMoniker": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\VehicleWithPlate.cs",
               "RelativeDocumentMoniker": "VehicleWithPlate.cs",
@@ -97,26 +110,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PoliceStation.cs",
               "DocumentMoniker": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\PoliceStation.cs",
               "RelativeDocumentMoniker": "PoliceStation.cs",
               "ToolTip": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\PoliceStation.cs",
               "RelativeToolTip": "PoliceStation.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T09:32:20.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "City.cs",
               "DocumentMoniker": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\City.cs",
               "RelativeDocumentMoniker": "City.cs",
               "ToolTip": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\City.cs",
               "RelativeToolTip": "City.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T09:29:32.097Z",
               "EditorCaption": ""
@@ -131,11 +144,12 @@
               "RelativeToolTip": "Taxi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:18:10.394Z"
+              "WhenOpened": "2024-09-16T16:18:10.394Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "IMessageWritter.cs",
               "DocumentMoniker": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\IMessageWritter.cs",
               "RelativeDocumentMoniker": "IMessageWritter.cs",
@@ -149,52 +163,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "SpeedRadar.cs",
-              "DocumentMoniker": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\SpeedRadar.cs",
-              "RelativeDocumentMoniker": "SpeedRadar.cs",
-              "ToolTip": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\SpeedRadar.cs",
-              "RelativeToolTip": "SpeedRadar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:22:24.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "PoliceCar.cs",
               "DocumentMoniker": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\PoliceCar.cs",
               "RelativeDocumentMoniker": "PoliceCar.cs",
               "ToolTip": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\PoliceCar.cs",
               "RelativeToolTip": "PoliceCar.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAowF0AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAswBsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T16:18:21.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Vehicle.cs",
               "DocumentMoniker": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\Vehicle.cs",
               "RelativeDocumentMoniker": "Vehicle.cs",
               "ToolTip": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\Vehicle.cs",
               "RelativeToolTip": "Vehicle.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T16:17:23.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Main.cs",
               "DocumentMoniker": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\Main.cs",
               "RelativeDocumentMoniker": "Main.cs",
               "ToolTip": "C:\\Users\\sergi\\Documents\\ICAI\\3\u00BA\\Primer cuatrimestre\\Paradigmas\\practica 2\\lab2_code\\Main.cs",
               "RelativeToolTip": "Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T08:22:46.009Z"
+              "WhenOpened": "2024-09-05T08:22:46.009Z",
+              "EditorCaption": ""
             }
           ]
         }

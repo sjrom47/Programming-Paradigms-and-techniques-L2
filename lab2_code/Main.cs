@@ -2,39 +2,30 @@
 {
     internal class Program
     {
-        // TODO: ensure only PoliceStation and city can create vehicles
         static void Main()
         {
-            Taxi taxi1 = new Taxi("0001 AAA");
-            Taxi taxi2 = new Taxi("0002 BBB");
-            PoliceCar policeCar1 = new PoliceCar("0001 CNP");
-            PoliceCar policeCar2 = new PoliceCar("0002 CNP");
+            City city = new City();
 
-            Console.WriteLine(taxi1.WriteMessage("Created"));
-            Console.WriteLine(taxi2.WriteMessage("Created"));
-            Console.WriteLine(policeCar1.WriteMessage("Created"));
-            Console.WriteLine(policeCar2.WriteMessage("Created"));
+            PoliceStation station = new PoliceStation();
 
-            policeCar1.StartPatrolling();
-            policeCar1.UseRadar(taxi1);
+            city.AddPoliceStation(station);
 
+            Taxi taxi1 = (Taxi)city.RegisterVehicle("0000AAA");
+            Taxi taxi2 = (Taxi)city.RegisterVehicle("0000BBB");
+
+            PoliceCar police1 = (PoliceCar)station.RegisterPoliceVehicle("0000CNP", true);
+            PoliceCar police2 = (PoliceCar)station.RegisterPoliceVehicle("0001CNP", false);
+
+            police2.UseRadar(taxi1);
             taxi2.StartRide();
-            policeCar2.UseRadar(taxi2);
-            policeCar2.StartPatrolling();
-            policeCar2.UseRadar(taxi2);
-            taxi2.StopRide();
-            policeCar2.EndPatrolling();
+            police1.StartPatrolling();
+            police2.StartPatrolling();
+            police1.UseRadar(taxi2);
+            station.DeactivateAlarm();
+            city.RemoveVehicle(taxi2.GetPlate());
 
-            taxi1.StartRide();
-            taxi1.StartRide();
-            policeCar1.StartPatrolling();
-            policeCar1.UseRadar(taxi1);
-            taxi1.StopRide();
-            taxi1.StopRide();
-            policeCar1.EndPatrolling();
 
-            policeCar1.PrintRadarHistory();
-            policeCar2.PrintRadarHistory();
+
 
         }
     }

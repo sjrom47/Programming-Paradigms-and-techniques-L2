@@ -9,12 +9,15 @@ namespace Practice1
     internal class PoliceStation 
     {   
         List<VehicleWithPlate> registeredPoliceVehicles;
-        public PoliceStation() { }
+        public PoliceStation() {
+            registeredPoliceVehicles = new List<VehicleWithPlate>();
+        }
 
-        public void RegisterPoliceVehicle(string plate, bool hasRadar)
+        public VehicleWithPlate RegisterPoliceVehicle(string plate, bool hasRadar)
         {
             PoliceCar newPoliceCar = new PoliceCar(plate, this, hasRadar);
             registeredPoliceVehicles.Add(newPoliceCar);
+            return newPoliceCar;
         }
 
         public void RemovePoliceVehicle(string plate)
@@ -29,6 +32,7 @@ namespace Practice1
 
         public void ActivateAlarm(string plate)
         {
+            Console.WriteLine($"Currently pursuing vehicle with plate: {plate}");
             foreach (var vehicle in registeredPoliceVehicles)
             {
                 if (vehicle is PoliceCar policeCar)
@@ -39,6 +43,7 @@ namespace Practice1
         }
         public void DeactivateAlarm()
         {
+            Console.WriteLine("The vehicle has been captured");
             foreach(var vehicle in registeredPoliceVehicles)
             {
                 if (vehicle is PoliceCar policeCar)

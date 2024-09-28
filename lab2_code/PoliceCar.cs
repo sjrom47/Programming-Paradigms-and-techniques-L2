@@ -7,6 +7,7 @@
         private string lastPursuedVehicle;
         private bool isPatrolling;
         private bool isPursuing;
+        private bool hasRadar;
         private SpeedRadar speedRadar;
         private PoliceStation associatedPoliceStation;
 
@@ -14,6 +15,7 @@
         {
             isPatrolling = false;
             isPursuing = false;
+            this.hasRadar = hasRadar;
             if (hasRadar)
             {
                 speedRadar = new SpeedRadar();
@@ -23,16 +25,30 @@
 
         public void UseRadar(Vehicle vehicle)
         {
-            // TODO: handle no radar case
-            if (isPatrolling)
+            if (isPatrolling && hasRadar)
             {
                 speedRadar.TriggerRadar(vehicle);
                 string meassurement = speedRadar.GetLastReading();
                 Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
+                if (meassurement.Contains("Catched above legal speed."))
+                {
+                    if (vehicle is VehicleWithPlate vehicleWithPlate)
+                    {
+                        associatedPoliceStation.ActivateAlarm(vehicleWithPlate.GetPlate());
+                    }
+                    else
+                    {
+                        associatedPoliceStation.ActivateAlarm("No plate");
+                    }
+                }
+            }
+            else if (hasRadar)
+            {
+                Console.WriteLine(WriteMessage($"has no active radar."));
             }
             else
             {
-                Console.WriteLine(WriteMessage($"has no active radar."));
+                Console.WriteLine(WriteMessage($"has no radar."));
             }
         }
 
@@ -69,11 +85,17 @@
 
         public void PrintRadarHistory()
         {
-            // TODO: handle no radar case
-            Console.WriteLine(WriteMessage("Report radar speed history:"));
-            foreach (float speed in speedRadar.SpeedHistory)
+            if (hasRadar)
             {
-                Console.WriteLine(speed);
+                Console.WriteLine(WriteMessage("Report radar speed history:"));
+                foreach (float speed in speedRadar.SpeedHistory)
+                {
+                    Console.WriteLine(speed);
+                }
+            }
+            else
+            {
+                Console.WriteLine(WriteMessage("Has no radar"));
             }
         }
 
@@ -84,8 +106,8 @@
                 isPursuing = true;
                 lastPursuedVehicle = plate;
             }
+
             
-            //associatedPoliceStation.ActivateAlarm(plate);
         }
         public void StopPursuit()
         {

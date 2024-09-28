@@ -11,27 +11,39 @@ namespace Practice1
     {
         List<Vehicle> vehicleLicenses;
         PoliceStation cityPoliceStation;
-        public City() { }
+        public City() 
+        {
+            vehicleLicenses = new List<Vehicle>();
+        }
 
         public void AddPoliceStation(PoliceStation policeStation)
         {
-            this.cityPoliceStation = policeStation;
+            cityPoliceStation = policeStation;
         }
-        public void RegisterVehicle(string plate)
+        public Vehicle RegisterVehicle(string plate)
         {
-            PoliceCar newTaxi = new PoliceCar(plate, this, hasRadar);
-            registeredPoliceVehicles.Add(newTaxi);
+            // For now you can only register Taxis. The functionality for
+            // other types of vehicles would require specifying the vehicle type
+            Taxi newTaxi = new Taxi(plate);
+            vehicleLicenses.Add(newTaxi);
+            return newTaxi;
 
         }
 
         public void RemoveVehicle(string plate)
         {
-            int i = 0;
-            while (vehicleLicenses[i].GetPlate() != plate)
+            // For now you can't remove vehicles without plate
+            foreach (Vehicle vehicle in vehicleLicenses)
             {
-                i++;
+                if (vehicle is VehicleWithPlate vehicleWithPlate)
+                {
+                    if (vehicleWithPlate.GetPlate() == plate)
+                    {
+                        vehicleLicenses.Remove(vehicle);
+                        break;
+                    }
+                }
             }
-            vehicleLicenses.RemoveAt(i);
         }
     }
 }
