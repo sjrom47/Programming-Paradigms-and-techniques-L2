@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace Practice1
 {
-    internal class City 
+    internal class City : IMessageWritter
     {
+        // TODO: see if there should be a getter for the vehicleLicenses
         List<Vehicle> vehicleLicenses;
         PoliceStation cityPoliceStation;
         public City() 
@@ -44,6 +45,13 @@ namespace Practice1
                     }
                 }
             }
+        }
+        public string WriteMessage(string message)
+        {
+            // Since now only one city is created the part before the colon
+            // is hardcoded, but a ToString method could be created if at some point
+            // more are created (would require some sort of ID)
+            return $"City: {message}";
         }
     }
 }

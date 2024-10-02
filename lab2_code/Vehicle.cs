@@ -19,8 +19,11 @@
             return typeOfVehicle;
         }
 
-        
 
+        public override string ToString()
+        {
+            return $"{GetTypeOfVehicle()} with no plate";
+        }
 
         public float GetSpeed()
         {

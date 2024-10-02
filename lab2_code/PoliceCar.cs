@@ -44,11 +44,11 @@
             }
             else if (hasRadar)
             {
-                Console.WriteLine(WriteMessage($"has no active radar."));
+                Console.WriteLine(WriteMessage("has no active radar."));
             }
             else
             {
-                Console.WriteLine(WriteMessage($"has no radar."));
+                Console.WriteLine(WriteMessage("has no radar."));
             }
         }
 

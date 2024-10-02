@@ -17,7 +17,6 @@
 
         public void TriggerRadar(Vehicle vehicle)
         {
-            // TODO: vehicles without plates
             if (vehicle is VehicleWithPlate vehicleWithPlate)
             {
                 plate = vehicleWithPlate.GetPlate();

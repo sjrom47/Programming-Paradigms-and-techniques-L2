@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Practice1
 {
-    internal class Scooter:VehicleWithoutPlate
+    internal class Scooter:Vehicle
     {
         const string typeOfVehicle = "Scooter";
         public Scooter() : base(typeOfVehicle) { }
