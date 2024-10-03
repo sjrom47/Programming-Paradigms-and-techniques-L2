@@ -35,8 +35,11 @@
             police1.UseRadar(taxi2);
 
             // Taxi is caught, license is removed
+            city.ShowTaxiLicenses();
             station.DeactivateAlarm();
             city.RemoveVehicle(taxi2.GetPlate());
+            city.ShowTaxiLicenses();
+            // To make sure it has been removed correctly
 
 
 

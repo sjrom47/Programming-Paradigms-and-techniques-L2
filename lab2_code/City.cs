@@ -9,12 +9,12 @@ namespace Practice1
 {
     internal class City : IMessageWritter
     {
-        // TODO: see if there should be a getter for the vehicleLicenses
-        List<Vehicle> vehicleLicenses;
+        
+        List<Vehicle> taxiLicenses;
         PoliceStation cityPoliceStation;
         public City() 
         {
-            vehicleLicenses = new List<Vehicle>();
+            taxiLicenses = new List<Vehicle>();
         }
 
         public void AddPoliceStation(PoliceStation policeStation)
@@ -26,7 +26,7 @@ namespace Practice1
             // For now you can only register Taxis. The functionality for
             // other types of vehicles would require specifying the vehicle type
             Taxi newTaxi = new Taxi(plate);
-            vehicleLicenses.Add(newTaxi);
+            taxiLicenses.Add(newTaxi);
             return newTaxi;
 
         }
@@ -34,13 +34,14 @@ namespace Practice1
         public void RemoveVehicle(string plate)
         {
             // For now you can't remove vehicles without plate
-            foreach (Vehicle vehicle in vehicleLicenses)
+            foreach (Vehicle vehicle in taxiLicenses)
             {
                 if (vehicle is VehicleWithPlate vehicleWithPlate)
                 {
                     if (vehicleWithPlate.GetPlate() == plate)
                     {
-                        vehicleLicenses.Remove(vehicle);
+                        taxiLicenses.Remove(vehicle);
+                        Console.WriteLine(WriteMessage($"Removed vehicle with plate {plate}"));
                         break;
                     }
                 }
@@ -52,6 +53,26 @@ namespace Practice1
             // is hardcoded, but a ToString method could be created if at some point
             // more are created (would require some sort of ID)
             return $"City: {message}";
+        }
+
+        public void ShowTaxiLicenses()
+        {
+            // Only to show the licenses
+            string combined_licenses = "";
+            foreach (Vehicle vehicle in taxiLicenses) 
+            {
+                if (vehicle is VehicleWithPlate vehicleWithPlate)
+                {
+                    combined_licenses += $"{vehicleWithPlate.GetPlate()}, ";
+                }
+                else
+                {
+                    combined_licenses += $"no plate, ";
+                }
+                
+            }
+            Console.WriteLine(WriteMessage($"Current licenses: {combined_licenses}"));
+
         }
     }
 }

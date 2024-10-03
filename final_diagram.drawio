@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1877" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1994" dy="1859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -160,23 +160,23 @@
         <mxCell id="Tdw9SRZWMOGVQ2NLU8M8-8" value="+ WriteMessage(CustomMessage:string):string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Tdw9SRZWMOGVQ2NLU8M8-5" vertex="1">
           <mxGeometry y="44" width="270" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ntqVdeVuu3aMAFXfM20n-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HIWES7zEq5GttDM-q2rz-3" target="Tdw9SRZWMOGVQ2NLU8M8-5">
+        <mxCell id="ntqVdeVuu3aMAFXfM20n-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HIWES7zEq5GttDM-q2rz-3" target="Tdw9SRZWMOGVQ2NLU8M8-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="930" y="-13" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ntqVdeVuu3aMAFXfM20n-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=left;verticalAlign=bottom;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=diamondThin;startFill=1;startSize=14;endArrow=open;endSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Tdw9SRZWMOGVQ2NLU8M8-20" target="ntqVdeVuu3aMAFXfM20n-2">
+        <mxCell id="ntqVdeVuu3aMAFXfM20n-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=left;verticalAlign=bottom;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=diamondThin;startFill=1;startSize=14;endArrow=open;endSize=12;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Tdw9SRZWMOGVQ2NLU8M8-20" target="ntqVdeVuu3aMAFXfM20n-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tdw9SRZWMOGVQ2NLU8M8-20" value="PoliceStation" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="370" y="-190" width="460" height="190" as="geometry" />
+          <mxGeometry x="380" y="-200" width="460" height="216" as="geometry" />
         </mxCell>
         <mxCell id="Tdw9SRZWMOGVQ2NLU8M8-21" value="- registeredPoliceVehicles:List&amp;lt;VehicleWithPlate&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Tdw9SRZWMOGVQ2NLU8M8-20" vertex="1">
           <mxGeometry y="26" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ntqVdeVuu3aMAFXfM20n-10" value="- alarm:Alarm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Tdw9SRZWMOGVQ2NLU8M8-20">
+        <mxCell id="ntqVdeVuu3aMAFXfM20n-10" value="- alarm:Alarm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Tdw9SRZWMOGVQ2NLU8M8-20" vertex="1">
           <mxGeometry y="52" width="460" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Tdw9SRZWMOGVQ2NLU8M8-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Tdw9SRZWMOGVQ2NLU8M8-20" vertex="1">
@@ -191,8 +191,11 @@
         <mxCell id="HIWES7zEq5GttDM-q2rz-0" value="+ RegisterPoliceVehicle(licensePlate:string,hasRadar:bool):VehicleWithPlate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Tdw9SRZWMOGVQ2NLU8M8-20" vertex="1">
           <mxGeometry y="138" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HIWES7zEq5GttDM-q2rz-3" value="+ RemovePoliceVehicle(licensePlate:string):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Tdw9SRZWMOGVQ2NLU8M8-20" vertex="1">
+        <mxCell id="k7UdUFKAMcgVLaWvcRoY-4" value="+ GetRegisteredPoliceVehicles():string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Tdw9SRZWMOGVQ2NLU8M8-20">
           <mxGeometry y="164" width="460" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HIWES7zEq5GttDM-q2rz-3" value="+ RemovePoliceVehicle(licensePlate:string):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Tdw9SRZWMOGVQ2NLU8M8-20" vertex="1">
+          <mxGeometry y="190" width="460" height="26" as="geometry" />
         </mxCell>
         <mxCell id="iNS-yqDXoTO4v2bwnHlp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;endSize=12;startSize=14;startArrow=diamondThin;startFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Tdw9SRZWMOGVQ2NLU8M8-25" target="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -203,7 +206,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ntqVdeVuu3aMAFXfM20n-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=12;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Tdw9SRZWMOGVQ2NLU8M8-25" target="Tdw9SRZWMOGVQ2NLU8M8-5">
+        <mxCell id="ntqVdeVuu3aMAFXfM20n-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=12;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Tdw9SRZWMOGVQ2NLU8M8-25" target="Tdw9SRZWMOGVQ2NLU8M8-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1000" y="190" as="targetPoint" />
             <Array as="points">
@@ -213,7 +216,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Tdw9SRZWMOGVQ2NLU8M8-25" value="City" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-55" y="-176" width="340" height="138" as="geometry" />
+          <mxGeometry x="-55" y="-178" width="340" height="164" as="geometry" />
         </mxCell>
         <mxCell id="Tdw9SRZWMOGVQ2NLU8M8-26" value="- cityPoliceStation:PoliceStation" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Tdw9SRZWMOGVQ2NLU8M8-25" vertex="1">
           <mxGeometry y="26" width="340" height="26" as="geometry" />
@@ -227,8 +230,11 @@
         <mxCell id="HIWES7zEq5GttDM-q2rz-1" value="+ RegisterVehicle(licensePlate:string):Vehicle" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Tdw9SRZWMOGVQ2NLU8M8-25" vertex="1">
           <mxGeometry y="86" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="HIWES7zEq5GttDM-q2rz-2" value="+ RemoveLicense(licensePlate:string):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Tdw9SRZWMOGVQ2NLU8M8-25" vertex="1">
+        <mxCell id="k7UdUFKAMcgVLaWvcRoY-3" value="+ RemoveLicense(licensePlate:string):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Tdw9SRZWMOGVQ2NLU8M8-25">
           <mxGeometry y="112" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HIWES7zEq5GttDM-q2rz-2" value="+ ShowTaxiLicenses():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Tdw9SRZWMOGVQ2NLU8M8-25" vertex="1">
+          <mxGeometry y="138" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Tdw9SRZWMOGVQ2NLU8M8-40" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--5" target="Tdw9SRZWMOGVQ2NLU8M8-8" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -249,7 +255,7 @@
             <mxPoint x="550" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FYR1o_9sWj_2wDH_Xqjh-1" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="HIWES7zEq5GttDM-q2rz-3" target="FYR1o_9sWj_2wDH_Xqjh-2" edge="1">
+        <mxCell id="FYR1o_9sWj_2wDH_Xqjh-1" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Tdw9SRZWMOGVQ2NLU8M8-20" target="FYR1o_9sWj_2wDH_Xqjh-2" edge="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="350" y="-50" as="sourcePoint" />
             <mxPoint x="510" y="485" as="targetPoint" />
@@ -257,7 +263,8 @@
               <mxPoint x="310" y="-13" />
               <mxPoint x="310" y="30" />
               <mxPoint x="360" y="30" />
-              <mxPoint x="360" y="410" />
+              <mxPoint x="360" y="350" />
+              <mxPoint x="390" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -292,11 +299,11 @@
         <mxCell id="FYR1o_9sWj_2wDH_Xqjh-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="FYR1o_9sWj_2wDH_Xqjh-6" vertex="1">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="iNS-yqDXoTO4v2bwnHlp-6" value="En cuanto a los principios SOLID, vamos a ir uno por uno detallando si se aplican o no&lt;br&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SRP: quizás el hecho de que la comisaría se ocupe de controlar los vehículos de policía y además gestionar la alarma puede incumplir el principio, por lo que creamos un objeto alarma que se encarga de las tareas de avisar a todos los coches de policía cuando se detecte un&amp;nbsp; coche al que perseguir y de decirles que dejen de perseguir una vez que se atrape.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;OCP: Aunque para la implementación propuesta no afecta, es posible que limitar a la estacion de policia a coches de policia y al ayuntamiento a taxis impida que podamos regitrar otros vehiculos (como motos). Por ello se ha decidido que la estacion de policia tenga una lista de vehiculos con matricula y el ayuntamiento una lista de vehiculos, ya que en un futuro puede ser que no solo queramos registrar coches de policia y taxis.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;LIP: La introduccion del patinente hace que tengamos que separar en vehículos con matricula y el resto. Durante el desarrollo se ha considerado la inclusion de una clase de vehiculos sin matricula, pero se ha terminado descartando porque no se me ha ocurrido ninguna funcionalidad especifica que pueda tener un vehiculo sin matricula que no pueda tener un vehiculo generico o una funcionalidad que tenga un vehiculo sin matricula, pero que no la tenga un vehiculo con matricula. De ser el caso sería necesaria la creación de una clase VehicleWithoutPlate de la que heredaría Scooter&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ISP: con este no hay ningun problema, la interfaz que tenemos tiene implementaciones de todos sus metodos en todas las clases en las que se implementa&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DIP: de nuevo, si la estacion de policia y ciudad dependen de los vehiculos especificos (Taxi y PoliceCar), no podrían registrar nuevos tipos de vehiculos despues, aunque si en esta ciudad supiéramos que solo hay estos tipos de vehículos entonces no habría problema&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=none;fillColor=none;rotation=0;html=1;overflow=visible;treeFolding=0;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-440" y="70" width="320" height="280" as="geometry" />
+        <mxCell id="iNS-yqDXoTO4v2bwnHlp-6" value="&lt;div style=&quot;text-align: justify;&quot;&gt;El link al repositorio de github es el siguiente:&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;https://github.com/sjrom47/Programming-Paradigms-and-techniques-L2&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;En cuanto a los principios SOLID, vamos a ir uno por uno detallando si se aplican o no&lt;br&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SRP: quizás el hecho de que la comisaría se ocupe de controlar los vehículos de policía y además gestionar la alarma puede incumplir el principio, por lo que creamos un objeto alarma que se encarga de las tareas de avisar a todos los coches de policía cuando se detecte un&amp;nbsp; coche al que perseguir y de decirles que dejen de perseguir una vez que se atrape.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;OCP: Aunque para la implementación propuesta no afecta, es posible que limitar a la estacion de policia a coches de policia y al ayuntamiento a taxis impida que podamos regitrar otros vehiculos (como motos). Por ello se ha decidido que la estacion de policia tenga una lista de vehiculos con matricula y el ayuntamiento una lista de vehiculos, ya que en un futuro puede ser que no solo queramos registrar coches de policia y taxis.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;LIP: La introduccion del patinente hace que tengamos que separar en vehículos con matricula y el resto. Durante el desarrollo se ha considerado la inclusion de una clase de vehiculos sin matricula, pero se ha terminado descartando porque no se me ha ocurrido ninguna funcionalidad especifica que pueda tener un vehiculo sin matricula que no pueda tener un vehiculo generico o una funcionalidad que tenga un vehiculo sin matricula, pero que no la tenga un vehiculo con matricula. De ser el caso sería necesaria la creación de una clase VehicleWithoutPlate de la que heredaría Scooter&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ISP: con este no hay ningun problema, la interfaz que tenemos tiene implementaciones de todos sus metodos en todas las clases en las que se implementa&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DIP: de nuevo, si la estacion de policia y ciudad dependen de los vehiculos especificos (Taxi y PoliceCar), no podrían registrar nuevos tipos de vehiculos despues, aunque si en esta ciudad supiéramos que solo hay estos tipos de vehículos entonces no habría problema&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;En cuanto a la pregunta sobre el medidor, estaríamos incumpliendo el principio open-close en el policía, ya que solo estaría pensado para poder activar radares y no otros tipos de medidores, pero sobre todo se incumple el dependency inversion. El coche de policía dependería del radar cuando este hereda de meddidor, por lo que sería imposible implementar otros medidores como el alcoholímetro propuesto&lt;/div&gt;" style="text;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=none;fillColor=none;rotation=0;html=1;overflow=visible;treeFolding=0;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-490" y="-262" width="390" height="750" as="geometry" />
         </mxCell>
         <mxCell id="iNS-yqDXoTO4v2bwnHlp-21" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="65" y="-30" width="30" height="30" as="geometry" />
+          <mxGeometry x="70" y="-14" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iNS-yqDXoTO4v2bwnHlp-22" value="0...m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="225" y="98" width="50" height="30" as="geometry" />
@@ -311,19 +318,28 @@
           <mxGeometry x="340" y="-135" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HIWES7zEq5GttDM-q2rz-4" value="0...m" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="345" y="368" width="50" height="30" as="geometry" />
+          <mxGeometry x="340" y="368" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ntqVdeVuu3aMAFXfM20n-2" value="Alarm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="390" y="60" width="490" height="86" as="geometry" />
+        <mxCell id="ntqVdeVuu3aMAFXfM20n-2" value="Alarm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="390" y="80" width="490" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="ntqVdeVuu3aMAFXfM20n-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ntqVdeVuu3aMAFXfM20n-2">
+        <mxCell id="ntqVdeVuu3aMAFXfM20n-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="ntqVdeVuu3aMAFXfM20n-2" vertex="1">
           <mxGeometry y="26" width="490" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ntqVdeVuu3aMAFXfM20n-6" value="+ ActivateAlarm(licensePlate:string, registeredPoliceVehicles:List&lt;VehicleWithPlate&gt;):void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ntqVdeVuu3aMAFXfM20n-2">
+        <mxCell id="ntqVdeVuu3aMAFXfM20n-6" value="+ ActivateAlarm(licensePlate:string, registeredPoliceVehicles:List&lt;VehicleWithPlate&gt;):void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ntqVdeVuu3aMAFXfM20n-2" vertex="1">
           <mxGeometry y="34" width="490" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ntqVdeVuu3aMAFXfM20n-7" value="+ DeactivateAlarm(registeredPoliceVehicles:List&lt;VehicleWithPlate&gt;):void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ntqVdeVuu3aMAFXfM20n-2">
+        <mxCell id="ntqVdeVuu3aMAFXfM20n-7" value="+ DeactivateAlarm(registeredPoliceVehicles:List&lt;VehicleWithPlate&gt;):void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ntqVdeVuu3aMAFXfM20n-2" vertex="1">
           <mxGeometry y="60" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="k7UdUFKAMcgVLaWvcRoY-0" value="&lt;p&gt;&lt;/p&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;The link to the GitHub repository is the following:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;https://github.com/sjrom47/Programming-Paradigms-and-techniques-L2&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Regarding the SOLID principles, let’s go through them one by one to determine if they are applied or not.&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;SRP&lt;strong&gt;:&lt;/strong&gt; Perhaps the fact that the police station is responsible for both controlling police vehicles and managing the alarm could violate this principle. Therefore, we created an alarm object that handles the task of notifying all police cars when a car to chase is detected and telling them to stop chasing once it is caught.&lt;/li&gt;&lt;/ul&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;OCP&lt;strong&gt;:&lt;/strong&gt; Although the proposed implementation is not affected, limiting the police station to police cars and the city hall to taxis might prevent us from registering other vehicles (like motorcycles). For this reason, it was decided that the police station would have a list of vehicles with a license plate, and the city hall would have a list of vehicles, as in the future we might not only want to register police cars and taxis.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;LSP &lt;strong&gt;:&lt;/strong&gt; The introduction of the scooter requires us to differentiate between vehicles with a license plate and others. During development, the inclusion of a class for vehicles without a license plate was considered, but it was ultimately discarded because I couldn’t come up with any specific functionality that a vehicle without a license plate would have that a generic vehicle wouldn’t, or any functionality that a vehicle without a plate would have that a vehicle with a plate wouldn’t. If that were the case, the creation of a VehicleWithoutPlate class, from which Scooter&amp;nbsp;would inherit, would be necessary.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;ISP&lt;strong&gt;:&lt;/strong&gt; There is no problem here. The interface we have has all its methods implemented in all the classes that implement it.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DIP&lt;/span&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;:&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; Again, if the police station and city depend on specific vehicles (Taxi and PoliceCar), they wouldn’t be able to register new types of vehicles later. However, if we knew that only these types of vehicles existed in this city, then there wouldn’t be an issue.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Regarding the question about the meter, we would be violating the open-closed principle in the police officer, as it would only be designed to activate radars and not other types of meters. But more importantly, we would be violating the dependency inversion principle. The police car would depend on the radar when it inherits from the meter, making it impossible to implement other meters like the proposed breathalyzer.&lt;/span&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=none;fillColor=none;rotation=0;html=1;overflow=visible;treeFolding=0;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-480" y="550" width="560" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="k7UdUFKAMcgVLaWvcRoY-1" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="k7UdUFKAMcgVLaWvcRoY-2" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="645" y="60" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

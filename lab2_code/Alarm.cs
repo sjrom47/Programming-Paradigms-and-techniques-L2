@@ -13,7 +13,9 @@ namespace Practice1
 
         public void ActivateAlarm(string plate, List<VehicleWithPlate> registeredPoliceVehicles)
         {
-            
+            // We implement that if statement to make sure that if another type of police
+            // vehicle that could not pursue cars was implemented (or it had a different behaviour)
+            // then they could have a different behaviour
             foreach (var vehicle in registeredPoliceVehicles)
             {
                 if (vehicle is PoliceCar policeCar)

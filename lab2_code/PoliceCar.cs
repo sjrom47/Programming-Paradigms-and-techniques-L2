@@ -101,6 +101,7 @@
 
         public void StartPursuit(string plate)
         {
+            Console.WriteLine(WriteMessage($"started pursuing car with plate {plate}"));
             if (isPatrolling)
             {
                 isPursuing = true;

@@ -18,6 +18,8 @@ namespace Practice1
 
         public VehicleWithPlate RegisterPoliceVehicle(string plate, bool hasRadar)
         {
+            // Right now it can only add police cars, but if some kind of flag
+            // was given then it could be used to create other types of police vehicles
             PoliceCar newPoliceCar = new PoliceCar(plate, this, hasRadar);
             registeredPoliceVehicles.Add(newPoliceCar);
             return newPoliceCar;
@@ -26,11 +28,18 @@ namespace Practice1
         public void RemovePoliceVehicle(string plate)
         {
             int i = 0;
-            while (registeredPoliceVehicles[i].GetPlate() != plate)
+            while (registeredPoliceVehicles[i].GetPlate() != plate && i < registeredPoliceVehicles.Count)
             {
                 i++;
             }
-            registeredPoliceVehicles.RemoveAt(i);
+            if (i < registeredPoliceVehicles.Count) {
+                registeredPoliceVehicles.RemoveAt(i);
+                Console.WriteLine(WriteMessage($"Removed vehicle with plate {plate}"));
+            }
+            else {
+                Console.WriteLine(WriteMessage($"Vehicle with plate {plate} not found"));
+            }
+                
         }
 
         public void ActivateAlarm(string plate)
@@ -53,5 +62,11 @@ namespace Practice1
             // more are created (would require some sort of ID)
             return $"Police Station: {message}";
         }
+
+        public List<VehicleWithPlate> GetRegisteredPoliceVehicles() 
+        { 
+            return registeredPoliceVehicles; 
+        }
+
     }
 }
